@@ -76,6 +76,16 @@ body {
   gap: 24px;
 }
 
+.icon-svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .advantages-logo.item {
   padding: 24px 102.14px;
   background-color: var(--light);
