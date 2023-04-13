@@ -72,7 +72,7 @@ body {
   text-align: center;
 }
 
-.advantages-logo.list{
+.advantages-logo.list {
   gap: 24px;
 }
 
@@ -172,8 +172,9 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.list-description {
-  display: flex;
+.advantages.list,
+.work.list,
+.team.list {
   gap: 24px;
 }
 
@@ -275,7 +276,7 @@ button {
 
 .hidden {
   visibility: hidden;
-  letter-spacing: 0.02em;
+  display: none;
 }
 
 .button {
@@ -293,20 +294,22 @@ button {
 }
 
 .button-order {
-  font-family: "Roboto", sans-serif;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-text);
+  background-color: var(--primary-brand);
   cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
+  padding: 16px 32px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin: 0 auto 188px;
+  margin: 0 auto;
 }
 
 .list-item {
