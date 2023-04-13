@@ -25,19 +25,20 @@ body {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* header */
 .header-section {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.16);
 }
 
 .div-section {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 
 .nav-section {
@@ -54,19 +55,47 @@ body {
 
 .hero-section {
   background-color: #2e2f42;
-  padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
+    url(../images/people-office.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+
+.advantages-logo.list{
+  gap: 24px;
+}
+
+.advantages-logo.item {
+  padding: 24px 102.14px;
+  background-color: var(--light);
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+}
+
+.goals-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .main-title {
+  margin: 0 auto 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -222,6 +251,7 @@ button {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .logo-studio-black {
@@ -286,6 +316,7 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto 188px;
 }
 
 .list-item {
