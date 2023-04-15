@@ -154,46 +154,50 @@ body {
 
 /* section 5 */
 
-
-.customer.subtitle {
-  margin-bottom: 72px;
-  line-height: 1.1;
-}
-
-.customer-section {
+.our-customers {
   padding: 120px 0;
 }
 
-.customer.list {
-  gap: 24px;
-  align-items: center;
+.customers-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
-.customer-item {
+.customers.item {
   width: 168px;
   height: 88px;
-  cursor: pointer;
 }
 
-.customer.link {
-  display: flex;
+.customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid var(--subtle-text);
   border-radius: 4px;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: var(--customers-icon);
   padding: 16px 32px;
 }
 
-.customer.link:hover,
-.customer.link:focus {
+.customers.list {
+  gap: 24px;
+  align-items: center;
+}
+.customers-link:hover,
+.customers-link:focus {
   color: var(--pressed-state);
-  border-color: var(--pressed-state);
+  border-color: solid var(--pressed-state);
 }
 
-.customer.icon {
+.customers-icon {
   fill: currentColor;
 }
 
