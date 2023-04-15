@@ -163,11 +163,12 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  line-height: 1.1;
+  color: #2e2f42;
 }
 
 .customers.item {
@@ -183,8 +184,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--customers-icon);
+  color: #8e8f99;
   padding: 16px 32px;
+
 }
 
 .customers.list {
