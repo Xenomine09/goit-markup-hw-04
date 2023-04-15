@@ -191,8 +191,8 @@ body {
   gap: 24px;
   align-items: center;
 }
-.customers-link:hover,
-.customers-link:focus {
+.customers.link:hover,
+.customers.link:focus {
   color: var(--pressed-state);
   border-color: solid var(--pressed-state);
 }
