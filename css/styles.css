@@ -154,50 +154,46 @@ body {
 
 /* section 5 */
 
-.our-customers {
+
+.customer.subtitle {
+  margin-bottom: 72px;
+  line-height: 1.1;
+}
+
+.customer-section {
   padding: 120px 0;
 }
 
-.customers-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.customers.item {
-  width: 168px;
-  height: 88px;
-}
-
-.customers.link {
-  width: 168px;
-  height: 88px;
-  border: 1px solid var(--subtle-text);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px 32px;
-  color: var(--customers-icon);
-}
-
-.customers.list {
+.customer.list {
   gap: 24px;
   align-items: center;
 }
-.customers.link:hover,
-.customers.link:focus {
+
+.customer-item {
+  width: 168px;
+  height: 88px;
+  cursor: pointer;
+}
+
+.customer.link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--subtle-text);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: var(--customers-icon);613524
+  padding: 16px 32px;
+}
+
+.customer.link:hover,
+.customer.link:focus {
   color: var(--pressed-state);
   border-color: var(--pressed-state);
 }
 
-.customers.icon {
+.customer.icon {
   fill: currentColor;
 }
 
