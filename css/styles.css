@@ -175,10 +175,10 @@ body {
   height: 88px;
 }
 
-.customers.example {
+.customers.link {
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--subtle-text);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -191,10 +191,10 @@ body {
   gap: 24px;
   align-items: center;
 }
-.customers.example:hover,
-.customers.example:focus {
-  color: #404bbf;
-  border-color: #404bbf;
+.customers.link:hover,
+.customers.link:focus {
+  color: var(--pressed-state);
+  border-color: var(--pressed-state);
 }
 
 .customers.icon {
