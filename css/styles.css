@@ -194,7 +194,7 @@ body {
 .customers.link:hover,
 .customers.link:focus {
   color: var(--pressed-state);
-  border-color: solid var(--pressed-state);
+  border-color: var(--pressed-state);
 }
 
 .customers.icon {
