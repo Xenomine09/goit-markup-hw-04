@@ -121,8 +121,8 @@ body {
   justify-content: center;
 }
 
-.social.link:hover,
-.social.link:focus {
+.social.team:hover,
+.social.team:focus {
   background-color: #404bbf;
 }
 
@@ -187,8 +187,8 @@ body {
 }
 .customers.example:hover,
 .customers.example:focus {
-  color: var(--pressed-state);
-  border-color: var(--pressed-state);
+  color: #404bbf;
+  border-color: #404bbf;
 }
 
 .customers.icon {
