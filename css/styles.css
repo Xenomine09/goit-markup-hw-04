@@ -12,6 +12,8 @@
   --hero-background: rgba(46, 47, 66, 0.7);
   --white-background: rgba(255, 255, 255, 1);
   --modal-background: rgba(252, 252, 252, 1);
+  --customers-icon: rgba(175, 177, 184, 1);
+  --footer-social-media: #ffffff;
 }
 
 body {
@@ -157,17 +159,20 @@ body {
 }
 
 .customers-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
-  color: #2e2f42;
-  margin-bottom: 72px;
+  line-height: 40px;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .customers.item {
-  width: calc((100%-120px) / 6);
+  width: 168px;
   height: 88px;
-  cursor: pointer;
 }
 
 .customers.example {
@@ -178,7 +183,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8;
+  color: var(--customers-icon);
+  padding: 16px 32px;
 }
 
 .customers.list {
