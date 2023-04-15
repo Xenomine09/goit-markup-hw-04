@@ -385,6 +385,10 @@ button {
   letter-spacing: 0.02em;
 }
 
+.contact-nav:hover{
+  color: var(--pressed-state);
+}
+
 .hidden {
   visibility: hidden;
   display: none;
@@ -521,6 +525,7 @@ button {
   height: 100%;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   background-color: var(--primary-brand);
 }
 
